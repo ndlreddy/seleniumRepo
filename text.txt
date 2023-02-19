@@ -113,7 +113,7 @@ git config --global user.email amarnath.ndl.11@gmail.com
 
 Git details 
 amarnath.reddy.ndl@gmail.com
-7386435482
+Amarnathndl11
 ndlreddy
 
 

@@ -124,3 +124,22 @@ https://github.com/ndlreddy/seleniumRepo.git
 git init
 
 git clone url
+
+Sign-on:
+
+//a[text()='SIGN-ON']
+//a[contains(text(),'SIGN-ON')]
+//a[starts-with(text(),'SIGN-ON')]
+
+Username:
+
+//input[@name='userName']
+//input[contains(@name,'userName')]
+//input[starts-with(@name,'user')]
+
+
+CSS:
+input[name='userName']
+input[name^='user']
+input[name*='rNam']
+input[name$='ame']

@@ -122,3 +122,5 @@ Repo created:
 https://github.com/ndlreddy/seleniumRepo.git
 
 git init
+
+git clone url

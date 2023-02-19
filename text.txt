@@ -1,0 +1,124 @@
+Sign-on:
+
+//a[text()='SIGN-ON']
+//a[contains(text(),'SIGN-ON')]
+//a[starts-with(text(),'SIGN-ON')]
+
+Username:
+
+//input[@name='userName']
+//input[contains(@name,'userName')]
+//input[starts-with(@name,'user')]
+
+
+CSS:
+input[name='userName']
+input[name^='user']
+input[name*='rNam']
+input[name$='ame']
+
+
+SUBMIT :
+
+//input[@type='submit']
+//input[contains(@type,'submit')]
+//input[starts-with(@type,'submit')]
+//div/input[@name='submit']
+//tr/td/font/a[text()='Home']
+//tr//a[text()='Home']
+//table/tbody/tr/td/font/a[text()='Home']
+//table//a[text()='Home']
+
+
+CSS:
+input[type='submit']
+input[type^='sub']
+input[type*='bmi']
+input[type$='bmit']
+div > input[name='submit']
+table > tbody > tr > td > font > a
+
+ / is direcct child
+ // is indirect child or grand child
+ 
+ /.. is moved to parent
+ 
+ reversr traversing(chaild to parent) is possible for only xpath not for CSS
+ 
+ 
+ //input[@name='Username']
+ 
+ input[name='username']
+ 
+ input[name]
+ 
+ //div[text()='SonarQube']/parent::div/following-sibling::div//angular-popper//div[contains(text(),'easeit')]/parent::div[@class='target-block']
+ 
+ for css - ^ starts with
+         - $ ends with
+		 
+		 
+Diference between get and navigate methog
+
+get - Get method will  not have history and cookies but navigate method maintain all cookies and history
+SO we can have few more methods like forward , deleteAllCookies, refresh methods
+
+
+Auto IT command lines :
+
+ControlFocus("Open","","Edit1")
+sleep(1000)
+ControlSetText("Open","","Edit1","$CmdLine[1]")
+Sleep(1000)
+ControlClick("Open","","Button1")
+
+
+Maven projects 
+
+pom.xml --> starting point for your project
+dependencies
+maven compiler project - compile your project
+maven surefire plugin - run your testng.xml
+
+java.lang.unsupportedclassversionerror - error
+My java version is 1.8.0
+i downloaded test ng 7.7.1
+I faced this  "java.lang.unsupportedclassversionerror" error
+then i changed the version testng is to 7.5
+issue fixed
+
+With testng we cant run more than 1 xml file at a time,
+But with maven we can run more than 1 xml file at a time
+
+
+We can run pom.xml from command line, for that we need to set two environment variables
+
+MAVEN_HOME
+path
+
+to run project from command prompt
+
+mvn clean
+mvn test
+or mvn clean test
+
+plugins requires : maven compliler, surefire to run testng.xml
+
+
+Set user name and email in git:
+
+git config --global user.name "Amar"
+git config --global user.email amarnath.ndl.11@gmail.com
+
+
+Git details 
+amarnath.reddy.ndl@gmail.com
+7386435482
+ndlreddy
+
+
+Repo created:
+
+https://github.com/ndlreddy/seleniumRepo.git
+
+git init
